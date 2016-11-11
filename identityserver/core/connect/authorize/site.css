@@ -1,0 +1,93 @@
+﻿body {
+    margin: 0;
+    padding: 0 0 1em 0;
+    background: white;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.logo {
+    position: relative;
+    margin: 1em auto;
+    max-width: 200px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 3em;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.mainpanel {
+    padding: 0.5em 0.5em;
+    border-radius: 5px;
+    background: #006EB6;
+    background: -webkit-linear-gradient(0, #006EB6, #1280C2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(0, #006EB6, #1280C2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(0, #006EB6, #1280C2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(0, #006EB6, #1280C2);
+}
+
+.title {
+    margin: 0.5em 0.65em;
+    color: white;
+    font-size: 1.5em;
+}
+
+.information {
+    margin: 0 1em;
+    padding: 0.5em 0.5em;
+    background: #C5C5C5;
+    border-radius: 5px;
+}
+
+.content {
+    margin: 0.5em 0;
+    font-size: 1em;
+    line-height: 1em;
+    color: #7c7c7b;
+}
+
+.applicationname {
+    color: white;
+}
+
+.form {
+    margin: 1em;
+}
+
+.field {
+    position: relative;
+    margin: 1em 0;
+}
+
+.rolecontainer {
+    margin: 1em;
+}
+
+.btn-primary {
+    background-color: #48B8E7;
+}
+
+.btn-primary:hover,.btn-primary.hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open>.dropdown-toggle.btn-primary {
+    background-color:#50CAED;
+    border-color:#50CAED
+}
+
+.form-control:focus,.has-success .select2-search input[type=text]:focus{
+    border-color:#48B8E7;
+    box-shadow:none
+}
+
+.field-validation-error{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    color: #e61d19;
+}
